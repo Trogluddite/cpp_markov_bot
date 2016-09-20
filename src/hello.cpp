@@ -1,11 +1,7 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
-  cout << "ohai\n";
-  cin.get();
-
+  std::cout << "ohai\n";
   return 0;
 }
