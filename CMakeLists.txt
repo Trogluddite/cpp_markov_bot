@@ -8,7 +8,7 @@ FILE (GLOB SOURCES "src/*.cpp")
 # Compiler flags
 SET (CMAKE_RUNTIME_OUTPUT_DIRECTORY "${PROJECT_SOURCE_DIR}/bin")
 SET (CMAKE_CXX_COMPILER             "/usr/bin/clang++")
-SET (CMAKE_CXX_FLAGS                "-std=c++11 -stdlib=libc++ -Wall")
+SET (CMAKE_CXX_FLAGS                "-std=c++14 -Wall")
 SET (CMAKE_CXX_FLAGS_DEBUG          "-g")
 SET (CMAKE_CXX_FLAGS_MINSIZEREL     "-Os -DNDEBUG")
 SET (CMAKE_CXX_FLAGS_RELEASE        "-O4 -DNDEBUG")
